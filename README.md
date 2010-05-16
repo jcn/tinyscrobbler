@@ -33,8 +33,8 @@ In this usage example you need to provide the track info (metadata), like artist
 	# Currently listening to...
 
 	current_track = {'artistname' => 'Moonspell', 'track' => 'Alma Mater',
-	  'time' => Time.now.to_s, 'source' => 'P', 'rating' => '',
-	  'secs' => '337', 'album' => 'Wolfheart', 'tracknumber' => '8', 'mbtrackid' => ''}
+	                 'time' => Time.now.to_i.to_s, 'source' => 'P', 'rating' => '',
+	                 'secs' => '337', 'album' => 'Wolfheart', 'tracknumber' => '8', 'mbtrackid' => ''}
 
 	ls.now_playing(current_track)
 
